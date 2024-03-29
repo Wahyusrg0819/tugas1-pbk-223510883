@@ -7,4 +7,4 @@ import '@fortawesome/fontawesome-free/css/all.css'
 
 
 
-createApp(App).mount('#app')
+createApp(App).mount('#App')

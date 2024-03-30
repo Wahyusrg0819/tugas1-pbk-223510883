@@ -1,0 +1,128 @@
+
+
+/* Mengatur tampilan kontainer */
+.container {
+    display: flex;
+    justify-content: center; /* Memusatkan konten secara horizontal */
+    align-items: center; /* Memusatkan konten secara vertikal */
+    height: auto; /* Mengatur tinggi sesuai dengan tinggi viewport (layar) */
+    padding-top: 65px;
+    padding-bottom: 130px;
+  }
+  
+  /* Mengatur tampilan bagian kiri (gambar) */
+  .left {
+    flex: 1;
+    padding: 20px; /* Menambahkan padding agar gambar tidak terlalu dekat dengan pinggir */
+    text-align: center; /* Memusatkan konten secara horizontal */
+  }
+  
+  /* Mengatur tampilan bagian kanan (nama dan bio) */
+  .right {
+    flex: 3;
+    padding: 20px;
+    text-align: left; /* Memusatkan konten secara horizontal */
+  }
+  
+  
+  
+  /* Mengatur tampilan gambar profil */
+  .left img {
+    width: 350px;
+    max-width: 500px; /* Sesuaikan dengan kebutuhan */
+    height: auto;
+    border-radius: 50%; /* Agar gambar terlihat seperti lingkaran (opsional) */
+    margin-top: 0px;
+  }
+  
+  /* Mengatur tampilan teks nama */
+  .right h1 {
+    font-size: 24px;
+    color: #F8F6E3; /* Sesuaikan dengan warna yang diinginkan */
+    margin-bottom: 10px;
+    font-family: 'Bahnschrift SemiBold', sans-serif;
+  }
+  
+  .right h2 {
+    font-size: 20px;
+    color: #F8F6E3; /* Sesuaikan dengan warna yang diinginkan */
+    margin-bottom: 10px;
+    font-family: 'Bahnschrift SemiBold', sans-serif;
+  }
+  
+  .right h3 {
+  
+    font-size: 50px;
+    color: #F8F6E3; /* Sesuaikan dengan warna yang diinginkan */
+    margin-bottom: 10px;
+    font-family: 'Bahnschrift SemiBold', sans-serif;
+  
+  }
+  
+  /* Mengatur tampilan teks bio */
+  .right p {
+    font-size: 16px;
+    color: #F8F6E3; /* Sesuaikan dengan warna yang diinginkan */
+    line-height: 1.6;
+    font-family: 'Bahnschrift SemiBold', sans-serif;
+    text-align: justify;
+  }
+  
+  body {
+    margin : 0;
+    background-color: #212529;
+    padding: 0;
+  }
+  
+  /* Mengatur tampilan ikon */
+  .right .icon {
+    margin-top: 10px; /* Jarak antara teks dan ikon */
+  }
+  
+  /* Mengatur tampilan ikon Instagram */
+  .right .instagram {
+    color: #fff; /* Warna ikon Instagram */
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  /* Mengatur tampilan ikon GitHub */
+  .right .github {
+    color: #fff; /* Warna ikon GitHub */
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  /* Mengatur tampilan ikon reddit */
+  .right .reddit {
+    color: #fff; /* Warna ikon reddit */
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+  /* Animasi untuk gambar naik dan turun */
+  @keyframes boomerang {
+    0% { transform: translateY(0); } /* Posisi awal (tidak berubah) */
+    50% { transform: translateY(-20px); } /* Posisi naik */
+    100% { transform: translateY(0); } /* Posisi turun ke posisi awal */
+  }
+  
+  /* Gaya CSS untuk layar lebar */
+  @media screen and (min-width: 768px) {
+    .container {
+      width: auto;
+    }
+  }
+  
+  /* Gaya CSS untuk layar kecil (misalnya, perangkat mobile) */
+  @media screen and (max-width: 767px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
+  
+
+  
+  

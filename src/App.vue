@@ -76,7 +76,7 @@
 export default {
   data() {
     return {
-      nama: 'Haii, Saya Wahyu Muliadi Siregar',
+      nama: 'Haiii, Saya Wahyu Muliadi Siregar',
       disukai: 'Badminton enthusiast',
       bio: 'Saya berasal dari Tapanuli Selatan, Sumatera Utara dan sedang kuliah di Universitas Islam Riau, Riau Pekan Baru. Saat ini Saya sedang berada dijenjang semester 5, Hobi saya adalah bermain Badminton, dan saya belum mempunya pengalaman pekerjaan😁🗿',
        
